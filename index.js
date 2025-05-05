@@ -11,6 +11,9 @@ app.get('/', function (req, res) {
   res.sendFile(process.cwd() + '/views/index.html');
 });
 
+app.post("/upload",(req,res)=>{
+  
+})
 
 
 
